@@ -26,21 +26,21 @@ p {
 ::-webkit-scrollbar {
     width: 8px;
   }
-  
+
   /* track */
   ::-webkit-scrollbar-track {
     border-radius: 10px;
   }
-   
+
   /* handle */
   ::-webkit-scrollbar-thumb {
     background: #a10fd1;
     border-radius: 10px;
   }
-  
+
   /* handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #6e0a8f; 
+    background: #6e0a8f;
   }
 
 .grids {
@@ -423,12 +423,26 @@ p {
     opacity: 1;
 }
 
+.soloImgCy {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding: 20px 0px 0px 0px;
+    opacity: 0.5;
+    transition: all 0.4s ease;
+}
+
+.soloImgCy:hover {
+    opacity: 1;
+}
+
 .subtitle {
     font-family: 'Roboto Mono', monospace;
     font-size: 15px;
     font-weight: 500;
     color: #7a7a7a;
-    margin-top: 0.5%;
+    margin: 0.5% 0%;
     text-align: center;
 }
 
@@ -469,7 +483,7 @@ p {
     font-weight: 700;
     font-size: 14px;
     line-height: 30px;
-    text-align: center; 
+    text-align: center;
     position: absolute;
     left: 0px;
     bottom: 0px;
@@ -507,12 +521,12 @@ p {
         margin-top: 0%;
         padding-left: 0px;
     }
-    
+
     .welcome {
         font-size: 20px;
         padding-left: 0px;
     }
-    
+
     .inspired {
         font-size: 10px;
         padding-left: 0px;
@@ -526,7 +540,7 @@ p {
         padding-left: 0px;
         margin: 0px 0px 20px 10px;
     }
-    
+
     .socMed_img {
         position: absolute;
         right: 0px;
@@ -534,7 +548,7 @@ p {
         margin: 0px;
         padding-right: 0px;
     }
-    
+
     .socMed_img a img {
         display: flex;
         float: none;
@@ -553,17 +567,17 @@ p {
         justify-content: center;
         align-items: center;
     }
-    
+
     .linksContainer {
         padding: 0px 0px;
     }
-    
+
     .linksTopNav a{
         font-size: 100%;
         padding: 0px 10px;
         font-weight: 500;
     }
-    
+
     .linksActive a{
         font-size: 100%;
         padding: 0px 10px;
@@ -695,13 +709,13 @@ p {
         left: 50%;
         transform: translate(-50%, 0%);
     }
-    
+
     .socMed_footer {
         position: static;
         padding: 0px;
         padding-bottom: 5%;
     }
-    
+
     .socMed_footer a img {
         width: 25px;
         padding: 0px;
