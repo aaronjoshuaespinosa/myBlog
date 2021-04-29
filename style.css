@@ -686,6 +686,10 @@ p {
         margin-top: 0px;
     }
 
+    .soloImgCy {
+        width: 100%;
+    }
+
     /* FOOTER */
     .footer {
         display: flex;
